@@ -8,11 +8,10 @@ body{
 
 .image-bg{
   background-image: url("images/banner.jpg");
-  height: 50vh;
+  height: 59vh;
   width: 100%; 
   background-position: center;
   background-size: cover;
-  /* padding: 12px 0; */
   position: relative;
 }
 
@@ -23,22 +22,22 @@ body{
   position: absolute;
 }
 
-.image-bg h3{
+.image-bg p{
   font-size: 17px;
   color: white;
   position: absolute;
   transform: translate(33%);
   font-weight: 500;
   margin-left: 205px;
-  top: 119px;
+  top: 138px;
   letter-spacing: .4px;
 
 }
 
-.image-bg h2{
+.image-bg h1{
   color:white;
   font-size: 40px;
-  padding-top: 55px;
+  padding-top: 80px;
   margin-bottom: 15px;
   position: absolute;
   transform: translate(100%);
@@ -336,15 +335,6 @@ font-weight: 200;
 }
 
 
-/* .area-3{
-  background: #fff;
-  width: 100%x; */
-  /* padding: 120px 15px 20px 15px;   */
-  /* margin-left: 70px;
-  margin-right: 70px;  
-  padding-top: 120px;
-} */
-
 .team-image img{
   width: auto;
   height: auto;
@@ -421,16 +411,15 @@ font-weight: 200;
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 0PX;
-
-  
+  margin-left: 0PX;  
 }
+
 
 .team-image img{
   padding: 0 ;
   width: 100%;
-
 }
+
 
 .area-4{
   background: #fff;
@@ -441,41 +430,38 @@ font-weight: 200;
 
 .container-area4{
   margin: 0 70PX;
-  
 }
 
 .container-action{
+  padding: 45PX 0PX;
   background-color: #191c2f;
-  width: 100%;
+  text-align: center;
   
 }
 
 .action{
-  display: flex;
-  justify-content: space-between;
   margin: 0 70PX;
   
 }
 .action h5{
   font-size: 28px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: white;
   margin-top: 0px;
-  padding: 45PX 15px;
   font-weight: 200;
-  width: 50%;  
   
 }
 
 .action span{
   font-weight: 600;
   font-size: 29PX;
-
+  
 }
 
 .button-a{
-  padding: 45px 0;
-  padding-right: 15PX;
+  display: flex;
+  justify-content: space-between;
+  padding: 0PX 15PX;
 }
 
 .button-a a{
@@ -485,8 +471,6 @@ font-weight: 200;
   padding: 15px 30px;
   border: 2px solid white;
   border-radius: 50px;
-  margin-top: 0px;
-  margin-bottom: 0px;
     
 }
 
@@ -495,15 +479,16 @@ a{
 }
 
 .container-footer{
-  background-color: #151723;
-  width: 100%;
-  
+  background-color: rgba(0, 0, 0, 0.45);
+  /* background-image: url("images/f-pattern2.png"); */
+  padding: 120PX 0;
+  background-position: -14.0104px -442.617px;
 }
+
 
 .columns{
   margin: 0 70PX;
   color: white;
-  padding-top: 120px;
   display: flex;
   justify-content: space-around;
 
@@ -534,6 +519,15 @@ opacity: .9;
 }
 
 
+.icon-socials ol{
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+
+}
+
+
+
 .icon-logo img{
   width: 180px;
   height: 57px;
@@ -551,4 +545,38 @@ opacity: .9;
 .icon-logo img{
   width: 200px;
   height: 63px;
+}
+
+.final p{
+  margin: 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+}
+.container-action2{
+  background-color: #191c2f;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+
+}
+
+form{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  padding: 15px 0px;
+  margin-bottom: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: block;
+  width: 100%;
+}
+
+input{
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+
 }
